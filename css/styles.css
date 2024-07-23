@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.body-content{
+    transition: background-color 0.4s ease-in-out;
+}
+.main-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.header {
+  height: auto;
+  position: fixed;
+  top: 20px;
+  left: 15px;
+}
+.header img {
+  width: 260px;
+}
+.email-contact {
+  height: auto;
+  position: fixed;
+  top: 20px;
+  right: 15px;
+}
+.email-contact a {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+.email-contact a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  height: auto;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 7px;
+}
+.navbar ul li a {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+footer {
+  height: auto;
+  width: 300px;
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+footer .description {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+footer .copyright {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000;
+  margin-top: 7px;
+}
+footer .copyright a {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000;
+  text-decoration: underline;
+}
+footer .copyright a:hover {
+  text-decoration: none;
+}
+footer .policy {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+footer .policy:hover {
+  text-decoration: none;
+}
+.issue-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+  
+}
+.issue-section .issue-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.issue-content .issue-cover img {
+  width: 420px;
+}
+.issue-number {
+  margin: 10px;
+}
+.issue-content .issue-number span {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+.issue-purchase {
+  margin: 10px;
+}
+.issue-content .issue-purchase a {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+.issue-content .issue-purchase a:hover {
+  text-decoration: underline;
+}
+.issue-store {
+  margin: 10px;
+}
+.issue-content .issue-store span {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+.issue-content .issue-store a {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+.issue-content .issue-store a:hover {
+  text-decoration: underline;
+}
+/* .issue-8 {
+  background-color: #f6e0a4;
+}
+.issue-7 {
+  background-color: #ff608c;
+}
+.issue-6 {
+  background-color: #ffffff;
+} */
+
+.issue-6 .issue-purchase a {
+  color: #e568ac;
+}
+.issue-6 .issue-store a {
+  color: #e568ac;
+}
+/* .issue-5 {
+  background-color: #00c1b5;
+}
+.issue-4 {
+  background-color: #ff6519;
+}
+.issue-3 {
+  background-color: #ffbe00;
+}
+.issue-2 {
+  background-color: #1d3fbb;
+}
+.issue-1 {
+  background-color: #e30512;
+} */
